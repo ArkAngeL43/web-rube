@@ -404,8 +404,3 @@ system(" nmap #{IP}")
 
 
 system("clear")
-system("sleep 1")
-print "Enter your name: "
-name = gets # gets input 
-system("echo hello #{name}")
-puts "Hello #{name}" # returns name input 
